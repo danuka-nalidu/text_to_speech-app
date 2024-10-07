@@ -1,16 +1,54 @@
-# text_to_speech_test
 
-A new Flutter project.
+# Flutter Text-to-Speech App
 
-## Getting Started
+This Flutter app is a simple demonstration of text-to-speech functionality, allowing users to input text which is then converted to speech using the [flutter_tts](https://pub.dev/packages/flutter_tts) package.
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- Input any text to be converted into speech
+- Simple and easy-to-use interface
+- Uses the flutter_tts package for text-to-speech conversion
+- Cross-platform: Works on both iOS and Android
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Screenshot
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Here’s a screenshot of the app’s user interface:
+
+![App Screenshot](./images/screenshot.png)
+
+## How to Run the Project
+
+### Prerequisites
+
+- Flutter SDK
+- A code editor like Visual Studio Code or Android Studio
+- A device/emulator to run the app
+
+### Steps to Run:
+
+1. Clone this repository.
+   ```bash
+   git clone <repository-url>
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd flutter-tts-app
+   ```
+3. Install dependencies by running:
+   ```bash
+   flutter pub get
+   ```
+4. Run the app on your connected device or emulator:
+   ```bash
+   flutter run
+   ```
+
+## Packages Used
+
+- [flutter_tts](https://pub.dev/packages/flutter_tts): A Flutter plugin to easily integrate text-to-speech functionality.
+
+## How It Works
+
+- The user inputs text in the provided text field.
+- By pressing the "Play" button, the app converts the input text into speech.
+  
