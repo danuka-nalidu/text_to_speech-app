@@ -14,7 +14,7 @@ This Flutter app is a simple demonstration of text-to-speech functionality, allo
 
 Here’s a screenshot of the app’s user interface:
 
-![App Screenshot](./images/screenshot.png)
+<img src="./images/screenshot.png" alt="App Screenshot" width="300"/>
 
 ## How to Run the Project
 
